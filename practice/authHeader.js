@@ -13,9 +13,9 @@ const basicAuth = (req, res, next) => {
     const base64Credentials = authHeader.split(' ')[1];
     const credentials = Buffer.from(base64Credentials, 'base64').toString('ascii');
     const [username, password] = credentials.split(':');
-    console.log(base64Credentials)
-    console.log(credentials)
-    console.log(username + " " + password)
+    // console.log(base64Credentials)
+    // console.log(credentials)
+    // console.log(username + " " + password)
     const validUsername = 'praga';
     const validPassword = 'pass';
     

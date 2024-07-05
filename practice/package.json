@@ -2,9 +2,9 @@
   "name": "practice",
   "version": "1.0.0",
   "description": "",
-  "main": "practice.js",
+  "main": "security.js",
   "scripts": {
-    "server": "nodemon server/practice.js"
+    "server": "nodemon server/security.js"
   },
   "keywords": [],
   "author": "",
